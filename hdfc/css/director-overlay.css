@@ -1,0 +1,197 @@
+.board-of-director-cover .cover{
+    overflow:hidden;
+}
+/*.board-of-director-cover.cover-wrapper .cover .modal.popup-container.opened .modal-content{
+    padding:0px;
+    height: 450px;
+}*/
+.addScroll{
+     overflow-y:scroll;
+     max-height: 500px;
+}
+.popup-container.opened.download-in-progress .addScroll{
+    max-height: none;
+    border: none;
+}
+.director-overlay .modal-body .director-overlay-body{
+    padding: 20px;
+}
+.director-overlay .popup-header{
+
+    height:42px;
+    background:#3a526e;
+}
+.director-overlay .popup-header .panel-heading{
+    color:#fff;
+    text-align:center;
+}
+.director-overlay .closebut{
+    position:absolute;
+    right:-15px;
+    top:-16px;
+    background: #fff;
+    border-radius: 50%;
+}
+.director-overlay .closebut img{
+    height:30px;
+    width:30px;
+}
+.director-overlay .popup-header:before{
+    content: url('../images/logo.png');
+    position:absolute;
+    top:5px;
+    left:10px;
+}
+.director-overlay .homepp{
+    margin-bottom:10px;
+    padding-bottom:5px;
+}
+.director-overlay .downteam{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.director-overlay .dib{
+     display: inline-block;
+     vertical-align: middle;
+     margin-right:20px;
+     cursor: pointer;
+}
+.director-overlay-body{
+    padding-top: 30px;
+}
+.director-overlay-body .director-image img{
+    margin-bottom:10px;
+}
+.director-overlay-body .director-name{
+    margin-bottom:10px;
+}
+
+.director-overlay.download-in-progress .modal-wrapper{
+border-bottom: 5px solid #444;
+}
+
+.director-overlay.download-in-progress{
+border:none;
+}
+.director-overlay.download-in-progress .dib.download{
+display:none;
+}
+
+.director-overlay.download-in-progress .dib.print{
+display:none;
+}
+
+.director-overlay.download-in-progress .closebut{
+display:none;
+}
+
+.fix {
+    position: fixed;
+    top: 0px;
+     width: 70%;
+      z-index:999;
+    }
+.cover-wrapper .director-overlay .icon-left-open-big{
+    display:none;
+}
+@media only screen and (max-width: 539px){
+   .cover-wrapper .cover .modal.popup-container.opened{
+    width:100%;
+    height:100%;
+    overflow-y: scroll;
+   }
+.board-of-director-cover.cover-wrapper .cover .modal.popup-container.opened .modal-content{
+    border:none;
+    max-height: 500px;
+    overflow-y: scroll;
+   }
+   .cover-wrapper .director-overlay .popup-header:before{
+       content:none;
+
+   }
+  .cover-wrapper .director-overlay .closebut img{
+    display:none;
+   }
+   .cover-wrapper .director-overlay .icon-left-open-big{
+       display:block;
+       position:absolute;
+       color:#fff;
+       font-size:20px;
+       margin-top:7px;
+   }
+    .director-overlay-body{
+    padding-top: 60px;
+    }
+}
+@media(min-width: 541px) and (max-width: 959px){
+   .cover-wrapper .cover .modal.popup-container.opened{
+       width:85%;
+       height:65%;
+      }
+      .modal.popup-container.opened.download-in-progress{
+      margin:0px;
+      }
+}
+
+@media only screen and (min-width: 540px)
+.cover .modal-content.addScroll .modal-body {
+    max-height: 313px !important;
+}
+.cover .modal.popup-container.opened.download-in-progress .modal-body {
+    max-height: none !important;
+}
+
+@media print{
+    .popup-container.opened *{
+
+    }
+    .director-overlay .director-image{
+        width: 30% !important;
+        margin-left: 1% !important;
+    }
+    .director-overlay .director-description{
+            width: 69% !important;
+            margin-left: 32% !important;
+        }
+     .cover{
+            overflow: visible !important;
+     }
+     .popup-container.opened{
+             width:100% !important;
+             height:100% !important;
+     }
+     .modal-content *{
+             visibility: visible;
+     }
+     .cover .modal-body{
+             max-height: none!important;
+     }
+     .popupcontent.product-dtl.pull-right{
+        display:none;
+     }
+     .popup-contr-mid{
+        display:none;
+     }
+     .modal-content{
+        max-height:none;
+     }
+.director-description{
+    margin-left:45%;
+    word-break:break-all;
+}
+.director-description ul {
+    display:inline-block;
+    padding-top:20px;
+    list-style-type: disc;
+}
+.director-description ul li {
+    padding-bottom:20px;
+    display: list-item;
+    line-height: 1.5;
+}
+a[href]:after {
+    content: none !important;
+}
+    @page { margin: 0; }
+}

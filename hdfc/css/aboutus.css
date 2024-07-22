@@ -1,0 +1,154 @@
+.overview-main-container .top-lead-section-content{
+           padding: 0;
+         border-bottom: 1px solid #ddd;
+         background: #e7f6fe;
+         overflow: hidden;
+         position:relative;
+}
+
+.overview-main-container .top-lead-section-content .banner-top{
+    position:absolute;
+    right:0;
+}
+.overview-main-container .header-dtl-content-page.header-dtl.overviewtxtbox .overviewtxt{
+    width: 100%;
+        left: 0;
+        top: 20px;
+}
+.overview-main-container .overviewtxt {
+    background: rgba(0, 51, 127, 0.2);
+    width: 100%;
+    height: 42px;
+    padding: 0 0 0 20px;
+    position:relative;
+}
+.overview-main-container .page-name{
+     font-size: 34px;
+        line-height: 38px;
+        display: block;
+        color: #00337e;
+        margin-top: 5px;
+        text-transform: capitalize;
+}
+.overview-main-container .page-name p{
+    position:absolute;
+    bottom:0;
+}
+.overview-main-container .pginnerlinks {
+    margin: 20px;
+    margin-top:44px;
+    position:relative;
+}
+.overview-main-container .pginnerlinks ul li:before{
+        font-family: "fontello";
+            content: '\e802';
+            left: 0;
+            top: 1px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #1d86ff;
+            padding-right:21px;
+}
+.overview-main-container .pginnerlinks ul li{
+padding-bottom:5px;
+}
+.overview-main-container .panel.panel-body.pD0.content1ban{
+    padding:0px;
+}
+.who-we-are .exellenceicon{
+    display: inline-block;
+        width: 19.5%;
+        text-align: center;
+        vertical-align: top;
+}
+.who-we-are .exellenceicon img.excel-img{
+    width: 59px;
+}
+.who-we-are .exellenceicon .img-cap{
+    padding-top:20px;
+    color: #00337e;
+    font-size:14px;
+    font-weight: 600;
+}
+.who-we-are .panel-footer p{
+    float:right;
+}
+.overview-footer h2{
+    margin-bottom:10px;
+}
+.our-businesses .panel .panel-body .core h2{
+    padding-bottom:10px;
+    color:#444444;
+
+}
+.our-businesses .panel .panel-body .card .img-title h3{
+    padding-bottom:20px;
+    color:#444444;
+    height: 50px;
+}
+.our-businesses .panel .card .excel-img{
+    max-width:100%;
+    padding-bottom:20px;
+}
+.our-businesses .panel .card .img-title h3{
+        font-size:16px;
+        font-weight:600;
+}
+.board-of-directors .panel-body h2{
+    padding-bottom:10px;
+}
+.board-of-directors .panel-body .img-cap h3{
+    padding-bottom:10px;
+}
+@media(max-width:767px){
+.overview-main-container .top-lead-section-content .banner-top{
+    display:none;
+}
+  .overview-footer h2{
+     padding: 10px;
+     border-bottom: 1px solid #ddd;
+     margin-top: 20px;
+     margin-bottom: 10px;
+
+  }
+.our-businesses .panel .card .img-cap{
+    padding-bottom:15px;
+    }
+}
+@media (min-width:321px) and (max-width:769px){
+   .who-we-are .exellenceicon{
+        width:30%;
+    }
+}
+@media(max-width:320px){
+    .who-we-are .corvalue .exellenceicon{
+        width:45%;
+    }
+
+}
+@media(min-width:320px) and (max-width:540px){
+  .overview-footer h2{
+     padding: 10px;
+     border-bottom: 1px solid #ddd;
+     margin-top: 20px;
+     margin-bottom: 10px;
+
+  }
+  .our-businesses .panel .panel-body .core h2{
+         border-bottom: 1px solid #ddd;
+   }
+   .board-of-directors .panel-body h2{
+         border-bottom: 1px solid #ddd;
+   }
+}
+
+
+@media screen and (max-width: 600px){
+
+.overview-main-container .page-name p{
+    font-size: 18px;
+    line-height: 22px;
+    height: 32px;
+}
+
+}

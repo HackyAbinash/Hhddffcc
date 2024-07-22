@@ -1,0 +1,529 @@
+body.no-scroll.bod-opened .bp-container.HPD-template-hdfc-9-3 > .row{
+    overflow:unset !important;
+}
+
+body.no-scroll.bod-opened header, body.no-scroll.bod-opened .web-portal .top-menu .row.main-search-container, body.no-scroll.bod-opened .quick-navbar.middle-quick-menus.top-stick-menus .full-width-bg{
+    z-index:0 !important;
+}
+
+body.no-scroll.bod-opened .sticky-footer-generic .sticky-footer{
+    position:unset;
+}
+
+body.no-scroll.bod-opened .cookie-container{
+    display:none;
+}
+
+.overview-footer .panel-footer a{
+    float:right;
+}
+.board-of-directors .board-director-img{
+   /* width:34%;*/
+    float:left;
+}
+.board-of-directors .detail-wrapper{
+    float:left;
+}
+.history .detail-wrapper{
+    float:left;
+}
+.board-of-directors .core{
+    overflow:hidden;
+    position:static;
+}
+.awards .detail-wrapper{
+      float:left;
+        width:0px;
+        box-shadow:none;
+}
+.awards .cores{
+    overflow:hidden;
+    position:static;
+}
+.board-of-directors .slick-next.slick-disabled{
+background: url(../media/arrow-right.png) 0 0 no-repeat;
+}
+.awards .slick-next.slick-disabled{
+background: url(../media/arrow-right.png) 0 0 no-repeat;
+}
+
+.board-of-directors .slick-prev.slick-disabled{
+background: url(../images/arrow-left_1.png) 0 0 no-repeat;
+}
+.awards .slick-prev.slick-disabled{
+background: url(../images/arrow-left_1.png) 0 0 no-repeat;
+}
+
+.board-of-directors button:focus{
+outline: 0px;
+}
+.awards button:focus{
+outline: 0px;
+}
+.board-of-directors .first-col{
+    height: 228px;
+    background: #fff;
+    float: left;
+    padding: 10px;
+    padding-top: 15px;
+    border: 1px solid #ddd;
+}
+
+
+.board-of-directors .be-ex-content {
+     margin: 0px ;
+     padding: 0px ;
+    margin-top: 10px;
+}
+.board-of-directors .be-ex-title{
+    height:auto;
+}
+.board-of-directors .be-ex-title h3{
+    color: #444;
+    font-weight: 600;
+    font-size: 16px;
+}
+.board-of-directors .first-col .be-ex-content p{
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #444;
+}
+.board-of-directors .slider-image1{
+
+    height:auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.board-of-directors .panel-footer a{
+    float:right;
+}
+.awards .slider-image1{
+
+    height:auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.carousel-three-superparent img{
+
+width:100%;
+
+
+}
+
+.board-of-directors .slick-next {
+   background: url(../images/arrow-right-slick_1.png) 0 0 no-repeat;
+   height: 47px;
+   width: 8px;
+   text-indent: -9999px;
+   position: absolute;
+   right: -20px;
+   z-index: 1;
+   top: 47%;
+   border: none;
+}
+.board-of-directors  .slick-prev {
+   background: url(../images/arrow-left_1.png) 0 0 no-repeat;
+   height: 47px;
+   width: 47px;
+   text-indent: -9999px;
+   position: absolute;
+   left: -14px;
+   z-index: 1;
+   top: 47%;
+   border: none;
+}
+.board-of-directors .slick-prev.slick-arrow.slick-disabled{
+    background: url(../images/arrow-left-disabled_1.png) 0 0 no-repeat;
+       height: 47px;
+       width: 47px;
+       text-indent: -9999px;
+       position: absolute;
+       left: -14px;
+       z-index: 1;
+       top: 47%;
+       border: none;
+}
+.our-businesses-detail ul {
+   list-style-type: disc;
+   padding-left: 20px;
+}
+.our-businesses-detail ul li {
+    word-wrap: break-word;
+    list-style: disc;
+    margin-bottom: 5px;
+
+}
+
+.our-businesses-detail .cored .title-section.true ul{
+        direction: rtl;
+    }
+
+.board-of-directors .slick-next.slick-arrow.slick-disabled{
+    background: url(../images/arrow-right-disabled_1.png) 0 0 no-repeat;
+       height: 47px;
+       width: 47px;
+       text-indent: -9999px;
+       position: absolute;
+       right:-51px;
+       z-index: 1;
+       top: 47%;
+       border: none;
+}
+
+
+.awards  .slick-prev {
+   background: url(../images/arrow-left_1.png) 0 0 no-repeat;
+   height: 47px;
+   width: 47px;
+   text-indent: -9999px;
+   position: absolute;
+   left: -14px;
+   z-index: 1;
+   top: 47%;
+   border: none;
+}
+.awards .slick-next {
+   background: url(../images/arrow-right-slick_1.png) 0 0 no-repeat;
+   height: 47px;
+   width: 8px;
+   text-indent: -9999px;
+   position: absolute;
+   right: -13px;
+   z-index: 1;
+   top: 47%;
+   border: none;
+}
+.awards .slick-prev.slick-arrow.slick-disabled{
+    background: url(../images/arrow-left-disabled_1.png) 0 0 no-repeat;
+      height: 47px;
+      width: 8px;
+      text-indent: -9999px;
+      position: absolute;
+      left: -14px;
+      z-index: 1;
+      top: 47%;
+      border: none;
+}
+.awards .slick-next.slick-arrow.slick-disabled{
+    background: url(../images/arrow-right-disabled_1.png) 0 0 no-repeat;
+      height: 47px;
+      width: 8px;
+      text-indent: -9999px;
+      position: absolute;
+      right: -13px;
+      z-index: 1;
+      top: 47%;
+      border: none;
+}
+.board-of-directors .panel-body .img-cap{
+     padding-left: 112px;
+}
+
+.board-of-directors .inner-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: none;
+}
+.our-businesses-detail .cored .detail-wrapper{
+     border-bottom: 1px solid #ddd;
+     padding:0 0 20px 0;
+     margin-bottom:20px;
+ }
+ /*.our-businesses-detail .cored h2{
+      padding-bottom: 20px;
+  }*/
+ .our-businesses-detail .cored .detail-wrapper .img-title{
+    padding-bottom:15px;
+  }
+ .our-businesses-detail .cored .detail-wrapper:last-child{
+     border-bottom: none;
+ }
+/*.our-businesses-detail .board-director-img{
+    float: left;
+    width: 32.6%;
+}
+.our-businesses-detail .img-cap{
+width:63%;
+float:right;
+}*/
+/*.our-businesses-detail .board-director-img img{
+width:100%;
+}*/
+
+.our-businesses-detail .business-detail-section .img-cap p
+{
+    padding-left:20px;
+    word-wrap: break-word;
+}
+.our-businesses-detail .business-detail-section .img-cap table{
+margin-left:20px;
+}
+/* START Board of director overlay*/
+.board-of-direc .card img{
+    max-width:100%;
+}
+.board-of-direc .card{
+    margin-bottom:20px;
+    cursor: pointer;
+}
+.board-of-direc .core-img-over{
+    border-top:1px solid #ccc;
+    padding-top:29px;
+}
+/* END Board of director overlay*/
+/* START Board of director overlay*/
+.history-detail .panel-body .core h1{
+        color: #00337e;
+}
+.history-detail .year-dot{
+    background: #D7D7D7;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        position: relative;
+        margin-top: 3px;
+}
+.history-detail .year-dot::before{
+    background: #d7d7d7;
+        position: absolute;
+        width: 50px;
+        height: 1px;
+        content: "";
+        left: 13px;
+        top: 6px;
+}
+.history-detail .year-dot::after{
+        background: #d7d7d7;
+        position: absolute;
+        width: 1px;
+        height: 210px;
+        content: "";
+        left: 6px;
+        top: 13px;
+}
+.history-detail .yearinfo{
+        padding: 0 0 0 20px;
+}
+.history-detail .yearinfo .img-title{
+    margin: 0 0 10px
+}
+.history-detail .hist-detailblk {
+      padding-bottom: 60px;
+      display: block;
+      overflow: hidden;
+ }
+.history-detail .detail-wrapper .yearinfo .img-title p{
+    font-weight:600;
+    font-size:18px;
+}
+.history-detail .core-history-detail .hist-yrttl p{
+    font-weight:300;
+    font-size:30px;
+    color: #00337e;
+    padding: 0 0 20px;
+}
+.history-detail .hist-yrttl {
+    display: inline-block;
+    vertical-align: middle;
+}
+.history-detail.panel .panel-body
+{
+   margin-top: 0px;
+}
+
+/* END Board of director overlay*/
+/*START rating overview home */
+.ratings .cored .detail-wrapper{
+     border-bottom: 1px solid #ddd;
+     padding:0 0 20px 0;
+     margin-bottom:10px;
+ }
+ .ratings .cored .detail-wrapper .img-title{
+    padding-bottom:12px;
+  }
+ .ratings .cored .detail-wrapper:last-child{
+     border-bottom: none;
+     margin-bottom:0px;
+     padding-bottom:0px;
+ }
+
+/*END rating overview home */
+/*START awards slick overview footer */
+.awards .img-title{
+height:35px;
+ margin-bottom:15px;
+}
+.awards .board-director-img {
+    margin-bottom:10px;
+}
+.awards .board-director-img .excel-img{
+    max-width:100%;
+    border: 1px solid #ddd;
+}
+/*END awards slick overview footer */
+/*START stay connected overview footer */
+.stay-connected .body-title h2{
+    margin-bottom:10px;
+}
+.stay-connected .image-link-wrapper a:hover{
+    text-decoration:none;
+}
+.stay-connected .image-link{
+    margin-right:10px;
+}
+.stay-connected .btn.subscribe-now{
+    margin-top:20px;
+    width:50%;
+}
+.stay-connected .stay-appl-blk{
+    display:inline-block;
+    margin-top: 10px;
+}
+.stay-connected{
+    margin-bottom:20px;
+}
+/*END stay connected overview footer  */
+/* START Investor relation*/
+.investor-relation .panel-footer a{
+    float:right;
+}
+.investor-relation .detail-wrapper{
+    float:left;
+}
+/* END Investor relation*/
+
+.cover-wrapper .director-description ul li {
+    list-style: disc;
+}
+
+@media (min-width: 960px) {
+    .board-of-directors .first-col .be-ex-content .inner-title{
+        margin-top: 10px;
+        height: 35px;
+        display: none;
+        font-size: 16px;
+        color: #444;
+    }
+   .board-of-directors .be-ex-title{
+        display: block;
+    }
+}
+/*@media (min-width: 541px) and (max-width: 959px) {
+    .board-of-directors .first-col {
+        height: 205px;
+    }
+}*/
+/*@media (max-width: 540px) {
+    .board-of-directors img {
+        width: 146px;
+    }
+    .board-of-directors .first-col {
+        height: 174px;
+        padding-top: 10px;
+    }
+    .board-of-directors .be-ex-content {
+        margin-top: 5px;
+    }
+}*/
+/*@media (min-width: 481px) and (max-width: 540px) {
+
+    .board-of-directors .first-col {
+        height: 200px;
+
+    }
+}*/
+/*@media (max-width: 400px) and (min-width: 320px) {
+
+   .board-of-directors img {
+        width: 150px;
+    }
+.board-of-directors .first-col {
+        height: 174px;
+        padding-top: 10px;
+    }
+   .board-of-directors .be-ex-content {
+        margin-top: 5px;
+    }
+
+}*/
+@media(max-width:767px){
+.our-businesses-detail .board-director-img img{
+display:block;
+}
+.our-businesses-detail .img-cap{
+width:100%
+display:block;
+}
+}
+@media(max-width:320px){
+    .board-of-directors .board-director-img{
+        float:none;
+    }
+    .board-of-directors .board-director-img .excel-img{
+        margin:auto;
+        display:block;
+    }
+    .board-of-directors .panel-body .img-cap{
+        padding-left:0px;
+        padding-top:15px;
+        text-align:center;
+    }
+    .board-of-directors .panel-body h2{
+        text-align:left;
+    }
+    .history .board-director-img .excel-img{
+        padding-bottom:15px;
+    }
+    .awards .img-title{
+        padding-bottom:57px;
+    }
+    .awards .img-title .board-director-img {
+        padding-top:30px;
+    }
+}
+/* START Board of director overlay*/
+@media(max-width:767px) and (min-width:480px){
+    .board-of-direc .core-img-over .card{
+        width:48%;
+        float:left;
+    }
+}
+@media(max-width:479px){
+.board-of-direc .core-img-over .card img{
+    display:block;
+    margin:auto;
+}
+.board-of-direc .core-img-over .card .img-cap{
+    text-align:center;
+}
+}
+/* END Board of director overlay*/
+/*START media stay connected overview footer  */
+@media(min-width:768px){
+    .stay-connected .stay-appl-blk img{
+        width:45%;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px){
+ .board-of-direc .core-img-over .card.brdrN .img-cap{
+        height: 20px;
+    }
+    .board-of-directors .panel-body .img-cap{
+         padding-left: 110px;
+    }
+}
+
+@media(max-width:479px){
+    .stay-connected .stay-appl-blk img{
+        width:49%;
+        margin-right:0px;
+    }
+    .stay-connected .btn.subscribe-now{
+        width:100%;
+    }
+}
+/*END media stay connected overview footer  */
+

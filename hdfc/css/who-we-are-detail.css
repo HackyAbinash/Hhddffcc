@@ -1,0 +1,57 @@
+.who-we-are-detail{
+    padding:15px;
+}
+.who-we-are-detail .title{
+    margin-bottom:10px;
+    font-weight:300;
+    font-size:20px;
+}
+.who-we-are-detail .section .img-desc{
+    padding-left:20px;
+}
+.who-we-are-detail .section{
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #dddddd;
+}
+.who-we-are-detail .section:last-child{
+     border-bottom: none;
+}
+.who-we-are-detail .icons{
+    display: inline-block;
+        width: 19.5%;
+        margin:5px 0 15px;
+        text-align:center;
+}
+.who-we-are-detail .icons img{
+      margin:5px 0 15px;
+}
+.who-we-are-detail .icons .icon-cap{
+         color: #00337e;
+        font-size: 14px;
+        font-weight: 600;
+}
+@media(max-width:767px){
+.who-we-are-detail .section .img-desc{
+    padding-left:0;
+}
+.who-we-are-detail .section img{
+    margin-bottom:10px;
+}
+}
+@media(max-width:320px){
+    .who-we-are-detail .icons{
+            width: 45%;
+    }
+}
+@media screen and (max-device-width: 600px) and (min-device-width: 321px){
+.who-we-are-detail .icons {
+    width: 30%;
+}
+}
+@media screen and (max-device-width: 768px) and (min-device-width: 601px){
+.who-we-are-detail .icons {
+    width: 19%;
+}
+}
+
